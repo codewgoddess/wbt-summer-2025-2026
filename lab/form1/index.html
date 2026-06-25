@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form</title>
+</head>
+<body>
+    <div>
+        <div class="container">
+            <h1>Registration</h1>
+             <p>Please complete all fields below</p>
+             <hr>
+        </div>
+    <div class="field">
+        <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Jane Doe" required>
+        </div>
+
+        <div class="fiels">
+            <label for="postal">Postal Code</label>
+            <input type="number" id="postal" placeholder="10001" required>
+        </div>
+
+        <div class="field"
+        <label for="dob">Date of birth</label>
+        <input type="date" id="dob" value="2026-06-25" required>
+    </div>
+
+    <div class="field">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="jane@example.com" required>
+    </div>
+
+    <div class="field">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="*********" required>
+    </div>
+
+    <div class="field">
+        <label for="country">Country</label>
+        <select id="country">
+            <option value="" selected disabled>
+                Select a country...
+            </option>
+            <option>US</option>
+            <option>UK</option>
+            <option>Canada</option>
+            <option>Australia</option>
+            <option>Bangladesh</option>
+        </select>
+    </div>
+
+    <div class="buttons">
+        <button type="submit" class="btn-primary">Submit</button>
+        <button type="reset" class="btn-secondary">Reset</button>
+    </div>
+</body>
+</html>
